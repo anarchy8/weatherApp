@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+body {
+  background-image: url(img/newyork.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-image: linear-gradient( 109.6deg,  rgba(102,51,153,0.7) 11.2%, rgba(2,0,4,0.8) 91.1% );
+  height: 620px;
+  width: 500px;
+  border-radius: 9px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.container2 {
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.input-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12%;
+}
+.input{
+  background-color: #8F569D;
+  width: 80%;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 35px;
+  padding: 10px;
+}
+#btn{
+  width: 20%;
+  height: 100%;
+  right: 0;
+  cursor: pointer;
+  border-top-right-radius: 9px; 
+  border-bottom-right-radius: 9px;
+  border: none;
+  background-color: #FAB04E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn i{
+  color: black;
+  font-size: 25px;
+}
+#btn:hover{
+  color: white;
+  background-color: #C4D3E4;
+}
+.weather-icon{
+  width: 190px;
+}
+.temp-city-div{
+  display:flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.temp{
+  font-size: 80px;
+}
+.city{
+  font-size: 45px;
+}
+.nem-rüzgar-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.veri-div{
+  display: flex;
+  gap: 10px;
+}
+.veri-img{
+  width: 70px;
+}
+.nem-yüzde{
+  font-size: 30px;
+}
+.rüzgar-veri{
+  font-size: 30px;
+}
